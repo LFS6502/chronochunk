@@ -5,5 +5,6 @@ edition = "2024"
 
 [dependencies]
 dotenv = "0.15.0"
+parse_duration = "2.1.1"
 rcon = { version = "0.6.0", features = ["async-std", "rt-async-std", "rt-tokio"] }
 tokio = { version = "1.52.3", features = ["full"] }
